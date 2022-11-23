@@ -30,6 +30,8 @@ sleep $delay
 /usr/bin/wget -T 5 -t 1 ${urls[$index]} -O /dev/null -o /dev/null
 DOWNLOADER
 
+chmod +x $HOME/donwloader.bash
+
 # حالا باید فایل را به سیتسم عامل برای اجرای زمان دار معرفی کنیم
 crontab -e
 
